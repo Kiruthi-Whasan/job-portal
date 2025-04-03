@@ -1,0 +1,15 @@
+# Ignore config files with sensitive data
+src/main/resources/config.properties
+
+# Ignore Eclipse-specific files
+.classpath
+.project
+.settings/
+
+# Ignore compiled Java files
+bin/
+target/
+
+# Ignore logs and temporary files
+*.log
+*.tmp
